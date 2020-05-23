@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Simple App</title>
+
+    <link href="stylesheets/to-do.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Web Storage</h1>
+      <p>A simple app that allows a user to store comments locally.</p>
+    </header>
+
+    <main>
+      <section class="comment-input">
+        <p>Add Your Comment:</p>
+        <input type="text" /><button>+</button>
+        <p style="margin-top:10px;">
+          Delete all Comments:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
+            style="padding-left:6px;padding-right:6px;"
+          >
+            -
+          </button>
+        </p>
+      </section>
+
+      <section class="comments"><p>List of Comments</p></section>
+    </main>
+
+    <footer><p>This work is for CIT 281 Project 4</p></footer>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="javascripts/to-do-XC.js"></script>
+  </body>
+</html>
